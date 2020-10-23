@@ -1,11 +1,19 @@
 {
   "name": "ohyoha",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hedy-6/ohyoha.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hedy-6/ohyoha/issues"
+  },
+  "homepage": "https://github.com/hedy-6/ohyoha#readme",
+  "description": ""
 }
