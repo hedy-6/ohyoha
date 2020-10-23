@@ -1,0 +1,45 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/good/index",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}
+    ],
+	"tabBar": {
+	    "color": "#D9E0F0",
+	    "selectedColor": "#336FF0",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/image/home/home.png",
+	        "selectedIconPath": "static/image/home/home-active.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/user/index",
+	        "iconPath": "static/image/home/user.png",
+	        "selectedIconPath": "static/image/home/user-active.png",
+	        "text": "我"
+	    }]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	}
+}
